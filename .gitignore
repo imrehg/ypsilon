@@ -1,0 +1,8 @@
+# Ignore backup files of common text editors:
+**/*~
+# Ignore macOS Desktop Services Store configuration files:
+**/.DS_Store
+# Ignore generated object and binary directories:
+ypsilon
+**/*.d
+**/*.o

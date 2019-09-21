@@ -253,7 +253,7 @@ $(PROG): $(OBJS)
 
 vm1.s: vm1.cpp
 	$(CXX) $(CXXFLAGS) $(CPPFLAGS) \
-	-fno-reorder-blocks -fno-crossjumping -fno-align-labels -fno-align-loops -fno-align-jumps \
+	-fno-reorder-blocks -fno-align-labels -fno-align-loops -fno-align-jumps \
 	-fverbose-asm -masm=att -S src/vm1.cpp
 
 SDLMain.dylib: SDLMain.m
@@ -264,7 +264,7 @@ SDLMain.dylib: SDLMain.m
 
 vm1.o: vm1.cpp
 	$(CXX) $(CXXFLAGS) $(CPPFLAGS) \
-	-fno-reorder-blocks -fno-crossjumping -fno-align-labels -fno-align-loops -fno-align-jumps \
+	-fno-reorder-blocks -fno-align-labels -fno-align-loops -fno-align-jumps \
 	-c src/vm1.cpp
 
 install: all stdlib sitelib extension

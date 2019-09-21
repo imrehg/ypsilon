@@ -1,3 +1,5 @@
+**NOTE:** This fork of _Ypsilon_ contains a build-fix for _macOS_ version 10.13.6 (_macOS High Sierra_). With the fix, a working _Ypsilon_ can be build using _GCC_ 9.2.0 or _Apple LLVM_ version 10.0.0 (_clang_ 1000.10.44.4).
+
 # Ypsilon
 
 ## Overview
